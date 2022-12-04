@@ -1,0 +1,71 @@
+.tL {
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nome {
+    font-size: 1.5cm;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 56, 6);
+}
+
+.tT {
+    font-size: xx-large;
+    color: brown;
+}
+
+.barra {
+    display: flex;
+    flex-direction: column;
+}
+.home {
+    display: flex;
+    justify-content: space-evenly;
+}
+.image {
+    margin-left: -30px;
+    padding: 0px;
+    width: 200px;
+}
+
+.image2 {
+    width: 140px;
+}
+
+.image3 {
+    width: 140px;
+}
+
+.image4 {
+    width: 140px;
+}
+
+body {
+    background-color: beige;
+}
+
+.fundo {
+    /* width: 900px;
+    height: 650px;  */
+    /* border: 1px solid;
+    /* background-repeat: atributo;
+    background-position: 00px 10px; */
+    background-attachment: fixed;
+    background-image: url(https://png.pngtree.com/background/20210709/original/pngtree-dark-blue-beam-matte-upscale-gradient-background-picture-image_919994.jpg) ;
+}
+
+.containerDescricao {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.button:hover {
+    background-color: blueviolet;
+    color: blue;
+}
